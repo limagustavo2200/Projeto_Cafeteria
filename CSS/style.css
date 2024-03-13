@@ -10,3 +10,8 @@
     position: fixed;
     z-index: 1;
 }
+
+img {
+    width: 100px;
+    height: 100px;
+}
