@@ -5,13 +5,35 @@
         box-sizing: border-box;
 }
 
+
+
 .topo {
     width: 100%;
     position: fixed;
     z-index: 1;
+    background-color: #604829;
 }
 
-img {
+.topo img {
     width: 100px;
-    height: 100px;
+    position: relative;
+    left: 15%;
+}
+
+.topo div {
+    position: absolute;
+    right: 15%;
+    top: 35%;
+}
+
+.topo div a {
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: #c4a47c;
+    font-weight: 700;
+    text-shadow: 3px 5px 2px #000000;
+    margin-right: 20px;
+    letter-spacing: 2px;
+
 }
